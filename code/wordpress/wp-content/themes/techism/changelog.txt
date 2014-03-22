@@ -1,0 +1,50 @@
+Changelog for techism WordPress Responsive Theme
+
+11/12/2013 - Version 1.0.0
+* Initial Public Release
+
+11/14/2013 - Version 1.0.1
+* Minor Style Changes
+
+11/20/2013 - Version 1.0.2
+* Fixed a Issue for Left Sidebar in Responsive
+* Added Link to Theme Homepage in Footer
+* Added License, Readme and Changelog in txt
+* Fixed the issue with Older Posts and Newer Posts section
+* Added License Information in Readme.txt file 
+
+11/24/2013 - Version 1.0.3
+* Added default thumbnail in slider when no featured image is available
+
+12/12/2013 - Version 1.4
+* Changed the Author URI
+* Few Other Minor Fixes
+
+17/12/2013 - Version 1.5
+* Changed is_home to is_front_page for slider display on homepage
+
+22/12/2013 - version 2.0.0
+* Header Image Not Stretching problem solved
+* Title not showing properly - fixed
+
+22/02/2014 - version 2.0.1
+* Minor chnages
+* Removed theme options page and added Live customizer for changing settings
+
+27/02/2014 - version 2.0.2
+* Fixed the issue with page template ( Full Width Template showing sidebar space blank )
+* Improved Folders and Files distribution
+* Added Setting to enable full post on homepage
+* Added setting to disable Google Web Font - Opensans
+
+27/02/2014 - version 2.0.4
+* Fixed error with Google Web Fonts setting
+
+08/03/2014 - version 2.0.5
+* Added setting to enable/disable site title and tagline above the header image
+* Increased slider image width and modified caption css
+* Fixed hatom error showing in Google Webmasters Tool
+* Fixed the issue of readmore in post page
+
+10/03/2014 - version 2.0.6
+* Minor Issue Fixes

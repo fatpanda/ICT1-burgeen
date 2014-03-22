@@ -1,0 +1,17 @@
+Changelog
+
+= Version 1.1.2 - July 10, 2013 =
+
+* Fix: Headers already sent errors when processing payments
+* Fix: Issues with a few PayPal Adaptive accounts not processing payments
+
+= Version 1.1.1 - June 20, 2013 =
+
+* New: Added additional gateway errors.
+* Fix: Conflicts with EDD 1.6+.
+
+
+= Version 1.1 - June 2, 2013 =
+
+* New: Introduce separate preapproval processing function for use with other extensions.
+* Fix: Make sure there are no errors even when PayPal marks a payment as success.
