@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+        <head>
+        <meta charset="utf-8">
+        <title>Funder - Crowdfunding Wordpress Theme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Ivor">
+
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        <style type="text/css">
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+</style>
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        </head>
+
+        <body data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+<div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+    <div class="container"> <a class="brand" href="#">Funder</a>
+              <div class="nav-collapse">
+        <ul class="nav">
+                  <li><a href="#top" class="active">Top</a></li>
+                  <li><a href="#installation">Installation</a></li>
+                  <li><a href="#campaign">Campaign</a></li>
+                  <li><a href="#themeoptions">Theme Options</a></li>
+                  <li><a href="#styles">Styles</a></li>
+                  <li><a href="#javascript">JavaScript</a></li>
+                </ul>
+      </div>
+            </div>
+  </div>
+        </div>
+<!-- End of Navbar --> 
+
+<!-- Main Container Beginning -->
+
+<div class="container">
+<div class="masthead">
+          <h1>theme shared on weidea.net</h1>
+          <h2 style="text-align:center; margin-bottom:30px;">Funder - Crowdfunding Responsive Wordpress Theme<br/>
+    Documentation</h2>
+          <br>
+          <p class="marketing-byline"><img src="assets/img/preview.jpg"/><br/>
+    Designed by <a href="http://uouapps.com/">UOU apps</a> and Developed by <a href="http://wpgrace.com/">WpGrace</a></p>
+          <p>Funder is Crowdfunding Responsive Wordpress Theme that offers a wide range of features that enables to create a listing of companies to rise funds.</p>
+          <p class="download-info"> <a href="http://www.uou.ch" class="btn btn-primary btn-large">Item Support</a> <a href="http://uouapps.com/wp/funder/" class="btn btn-large">Live demo</a> </p>
+        </div>
+<!-- masthead -->
+
+<div id="intro">
+          <p class="highlight hero-unit">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://www.uouapps.com/system">here</a>. Thanks so much!</p>
+        </div>
+<!-- intro -->
+
+<section id="installation">
+          <div class="page-header">
+    <h1>Installation <small>How to Install the WordPress Template</small></h1>
+  </div>
+          <div class="row"> 
+    <!-- / .span3 -->
+    <div class="span12">
+              <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1) Upload files </a> </div>
+                  <div id="collapseOne" class="accordion-body collapse">
+            <div class="accordion-inner"> <strong>a) FTP Upload:</strong> Using your FTP program, upload the unzipped theme folder into the
+                      /wp-content/themes/ folder on your server. <br/>
+                      <strong>b) WordPress Upload:</strong> Navigate to Appearance > Add New Themes > Upload. Go to browse, and select the zipped theme folder. Click “Install Now” and the theme will be uploaded and installed.
+                      Once the theme is uploaded, you need to activate it. Go to Appearance > Themes and activate your chosen theme.<br>
+                      <img src="assets/img/scr1.jpg"/> </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 2) Activate theme </a> </div>
+                  <div id="collapseTwo" class="accordion-body collapse in">
+            <div class="accordion-inner"> Once the theme is uploaded, you need to activate it. Go to <strong>Appearance</strong> > <strong>Themes</strong> and activate your chosen theme. </div>
+            <br>
+            <img src="assets/img/scr2.jpg"/> </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3"> 3) Configuration WordPress </a> </div>
+                  <div id="collapse3" class="accordion-body collapse in">
+            <div class="accordion-inner"> - Go to <strong>Settings => Permalinks =></strong> set Common Settings - Post name - http://****/sample-post/ <br>
+                      <img src="assets/img/scr3.jpg"/><br/>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse6"> 4) Installing the necessary plugins </a> </div>
+                  <div id="collapse6" class="accordion-body collapse in">
+            <div class="accordion-inner">Go to <strong>Plugins</strong> > <strong>Add new</strong> > <strong>Upload</strong> and upload from <strong>\wp-content\themes\funder\plugins</strong>, installing and activate plugin. <br/>
+                      <table class="table table-bordered table-striped">
+                <thead>
+                          <tr>
+                    <th>ZIP plugin</th>
+                    <th>Description</th>
+                  </tr>
+                        </thead>
+                <tbody>
+                          <tr>
+                    <td><code>appthemer-crowdfunding.zip</code></td>
+                    <td>Funder required to install Crowdfunding Plugin to make it fully functional site. <a href="http://wordpress.org/plugins/appthemer-crowdfunding/">Download</a></td>
+                  </tr>
+                          <tr>
+                    <td><code>easy-digital-downloads.zip</code></td>
+                    <td>Funder required to install Easy Digital Downloads Plugin to make it fully functional site. <a href="http://wordpress.org/plugins/easy-digital-downloads/">Download</a></td>
+                  </tr>
+                        </tbody>
+              </table>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4"> 5) Install dummy content </a> </div>
+                  <div id="collapse4" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                      <p>To import dummy content (categorise/page/menu/blog/companies)<br>
+                <strong>A) dummy/funder.dummy.xml</strong> - go to Tools => Import => WordPress, and set Download attachment.<br/>
+                <img src="assets/img/scr5.jpg"/><br/>
+                Install Now and Activate Plugin & Run Importer <img src="assets/img/scr6.jpg"/><br/>
+                <img src="assets/img/scr7.jpg"/><br/>
+                <img src="assets/img/scr8.jpg"/><br/>
+              </p>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading">
+            <p><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#homepage"> 6) Set Homepage </a></p>
+          </div>
+                  <div id="homepage" class="accordion-body collapse in">
+            <div class="accordion-inner"><strong>Note:</strong> These steps not required if you import dummy content.<br>
+                      <p>To setup Homepage Go to <strong>Pages</strong> > <strong>Add New</strong> give name of page. e.g <strong>Home</strong> at right side there will be options to manage <strong>Page Attibutes</strong>, select <strong>Front Page</strong> templete from dropdown and publish the page. </p>
+                      <img src="assets/img/homepage.jpg"  alt=""/>
+                      <p>Now Go to <strong>Settings => Reading =></strong> set Reading Settings - Front page displays - A static page - Front page: - Home <br>
+              </p>
+                      <img src="assets/img/scr9.jpg"/><br/>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading">
+            <p><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#blog"> 7) Set Blog Page </a></p>
+          </div>
+                  <div id="blog" class="accordion-body collapse in">
+            <div class="accordion-inner"><strong>Note:</strong> These steps not required if you import dummy content.<br>
+                      <p>To setup Homepage Go to <strong>Pages</strong> > <strong>Add New</strong> give name of page. e.g <strong>Blog</strong> at right side there will be options to manage <strong>Page Attibutes</strong>, select <strong>Blog</strong> templete from dropdown and publish the page. </p>
+                      <img src="assets/img/blog.jpg"  alt=""/>
+                      <p>Now Go to <strong>Settings => Reading =></strong> set Reading Settings - Front page displays - A static page - Front page: - Home <br>
+              </p>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5"> 8) Create functional pages</a> </div>
+                  <div id="collapse5" class="accordion-body collapse in">
+            <div class="accordion-inner"><strong>Note:</strong> These steps not required if you import demo xml content.<br>
+                      Here are required shortcodes to publish functional pages.  Example: If you are setting up the “Start Campaign Page” you would first go to Pages > Add New give the page a title and paste the [wpg_crowdfunding_submit] shortcode onto the page and Publish the page, do the same for the rest of the shortcodes above.<br/>
+                      <table class="table table-bordered table-striped">
+                <thead>
+                        <p>These pages will be created automatically when you import a dummy-content</p>
+                <tr>
+                          <th>Title</th>
+                          <th>Template</th>
+                        </tr>
+                  </thead>
+                
+                <tbody>
+                          <tr>
+                    <td>Start Campaign Page</td>
+                    <td><code>[wpg_crowdfunding_submit]</code></td>
+                  </tr>
+                          <tr>
+                    <td>Campaign Contributor Dashboard</td>
+                    <td><code>[appthemer_crowdfunding_profile]</code></td>
+                  </tr>
+                          <tr>
+                    <td>Login</td>
+                    <td><code>[appthemer_crowdfunding_login]</code></td>
+                  <tr>
+                    <td>Register</td>
+                    <td><code>[appthemer_crowdfunding_register]</code></td>
+                  </tr>
+                          <tr>
+                    <td>Receipt Page</td>
+                    <td><code>[edd_receipt]</code></td>
+                  </tr>
+                          <tr>
+                    <td>Checkout Page</td>
+                    <td><code>[download_checkout]</code></td>
+                  </tr>
+                          <tr> </tr>
+                        </tbody>
+              </table>
+                    </div>
+          </div>
+                </div>
+      </div>
+            </div>
+    <!-- accordion .span9 --> 
+    
+  </div>
+          
+          <!-- /end row --> 
+          
+        </section>
+
+<!--End Installtion-->
+
+<section id="campaign">
+          <div class="page-header">
+    <h1>Campaigns<small> How to add and manage compaigns</small></h1>
+  </div>
+          <div class="row"> 
+    <!-- / .span3 -->
+    <div class="span12">
+              <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion11" href="#collapseOne11"> 1) Add A Campaign</a> </div>
+                  <div id="collapseOne11" class="accordion-body collapse">
+            <div class="accordion-inner">
+                      <p>To create a campaign as the site admin go to <strong>Campaigns</strong> > <strong>Add New</strong>, give your campaign a title, upload a <strong>featured image</strong>, add a video if you have one to the “<strong>Campaign Video</strong>” section, add the <strong>description</strong> to the campaign, select a <strong>Category for the campaign</strong>.</p>
+                      <p>Next go to the section called “Campaign Configuration” and add the goal amount, location of the campaign, the author of the campaign name, there PayPal address, the end date of the campaign.</p>
+                      <p>Under where it says “Reward Options” this is where you can add pledge levels and rewards, click the tick box for “Enable multiple reward options” and fill out the Option Name, Price for each reward.</p>
+                      <p><strong>IMPORTANT:</strong></p>
+                      <p>Always enable the button that says “Disable the automatic output of the purchase button”.</p>
+                      <h3> <a id="all-or-nothing-flexible-funding-options-41" href="#section-41">All-or-Nothing &amp; Flexible Funding Options</a> </h3>
+                      <p>If you have a pre-approval billing gateway installed such as WePay, Stripe or PayPal Adaptive&nbsp;Payments you will see these two types of campaign options: <strong>All-or-Nothing&nbsp;and Flexible.</strong></p>
+                      <ul>
+                <li><strong>All-or-Nothing: </strong>The default option, campaigns can only collect funds if the goal amount has been reached before the end date.</li>
+                <li><strong>Flexible</strong>: Campaigns can collect funds even if the goal has not been met. It is possible to charge a higher fee with this type.</li>
+              </ul>
+                      <h4>Flexible Campaign Fees</h4>
+                      <p>When using the PayPal&nbsp;Adaptive&nbsp;Payments gateway to keep a higher percentage of each pledge on flexible campaigns, simply visit <strong>Campaigns &gt; Settings &gt; Payment Gateways</strong>, and enter an additional percentage amount in the Adaptive Payments settings.</p>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse12"> 2) Collecting Funds </a> </div>
+                  <div id="collapse12" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                      <p>Go to <strong>Campaigns</strong> ><strong> All Campaigns</strong> then go to the campaign that has eneded, and you will see a box called Campaign Funds as shown below.
+                
+                When a campaign ends click on <strong>Collect Funds</strong> (Note: If using the PayPal Adaptive Payments gateway ensure that the campaign authors PayPal address is correct before collecting the funds.) </p>
+                      <p> It is also possible when using the <code>[appthemer_crowdfunding_profile] </code> shortcode to allow users to request a payout once a campaign is complete. This will send a notification email to the site administrator. You can then review the campaign and collect funds.</p>
+                    </div>
+            <br>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse13"> 3) Campaign Settings </a> </div>
+                  <div id="collapse13" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                      <p><strong> When setting up your site please make sure you have the settings setup the same as the following instructions.</strong></p>
+                      <p>Go to <strong>Campaigns</strong> ><strong> Settings</strong> > <strong>General</strong>.</p>
+                      <p>Please ensure that you setup all of the required pages for your site. You will need to ensure that you have set the checkout page, a success page with the shortcode of <code>[edd_receipt]</code> added to the page and you have setup an FAQ page and setup the submit a campaign page with the shortcode of <code>[wpg_crowdfunding_submit]</code> added to the page.</p>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse14"> 4) Redirect to checkout </a> </div>
+                  <div id="collapse14" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                      <p> Go to <strong>Campaigns</strong> ><strong> Settings</strong> ><strong> Misc</strong>.</p>
+                      <p>Please ensure that you have “Redirect to checkout” enabled so that when people click on the different pledge levels they will be redirected to the checkout page automatically.</p>
+                    </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse15"> 5) Payment Gateways </a> </div>
+                  <div id="collapse15" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                      <p>Plugin offers flexible payment options, which can be access from <strong>Campaign</strong> > <strong>Settings</strong> > <strong>Payment Gateways</strong></p>
+                      <img src="assets/img/payment.png"  alt=""/> </div>
+          </div>
+                </div>
+        <div class="accordion-group">
+                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse16"> 6) Export Campaign Data </a> </div>
+                  <div id="collapse16" class="accordion-body collapse in">
+            <div class="accordion-inner">
+                      <p>Go to&nbsp;<strong>Campaigns</strong> &gt;&nbsp;<strong>Reports</strong> &gt; <strong>Export</strong>. In the “Export Campaign Data” box, select the campaign to export. A <code>.CSV</code> download will begin shortly.</p>
+                      <br/>
+                      <p>It is also possible when using the <code>[appthemer_crowdfunding_profile]</code> shortcode to allow users to export their data. They will be presented with a link once the campaign is completed.</p>
+                    </div>
+          </div>
+                </div>
+      </div>
+            </div>
+    <!-- accordion .span9 --> 
+    
+  </div>
+          
+          <!-- /end row --> 
+          
+        </section>
+
+<!--End Compaigns-->
+<section id="themeoptions">
+<div class="page-header">
+          <h1>Theme Options<small> How to configure Theme options</small></h1>
+        </div>
+<div class="row"> 
+          <!-- / .span3 -->
+          <div class="span12">
+    <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion11" href="#layout"> 1) Homepage Layout</a> </div>
+        <div id="layout" class="accordion-body collapse">
+                  <div class="accordion-inner">
+            <p>Funder offers a flexible Homepage options, easy drag drop let you easily manage different elements.</p>
+            <p><img src="assets/img/layout.png"  alt=""/></p>
+          </div>
+                </div>
+      </div>
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#logo"> 2) Logo Settings </a> </div>
+        <div id="logo" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+            <p>Funder allows user to upload custom image logo or select text logo.</p>
+            <img src="assets/img/header.png"  alt=""/> </div>
+                </div>
+      </div>
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#slider"> 3) Slider </a> </div>
+        <div id="slider" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+            <p>Add own welcome message to slider</p>
+            <img src="assets/img/slider.png"  alt=""/> </div>
+                </div>
+      </div>
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#about"> 4) About Settings </a> </div>
+        <div id="about" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+            <p>Funder offers you a flexible about section. You can add own title and discription </p>
+            <img src="assets/img/about.png"  alt=""/> </div>
+                </div>
+      </div>
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#projects"> 5) Project Settings </a> </div>
+        <div id="projects" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+            <p>Funder offer flexible setting to control display of projects.</p>
+            <img src="assets/img/projects.png"  alt=""/> </div>
+                </div>
+      </div>
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#contactform"> 6) Contact Form Setting </a> </div>
+        <div id="contactform" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+            <p>Funder has its bulit-in contact from with flexible options. Section has two flexible columns under contact form, it has HTML code support</p>
+            <img src="assets/img/contact.png"  alt=""/> </div>
+                </div>
+      </div>
+              <div class="accordion-group">
+        <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#clients"> 6) Client Setting </a> </div>
+        <div id="clients" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+            <p>Funder has option to upload client logos and option to link them.</p>
+            <img src="assets/img/client.png"  alt=""/> </div>
+                </div>
+      </div>
+            </div>
+    <!-- accordion .span9 --> 
+    
+  </div>
+          
+          <!-- /end row -->
+          
+          <div style="clear: both"></div>
+          <section id="styles">
+    <div class="page-header">
+              <h1>Styles <small>Styles customization and highlights</small></h1>
+            </div>
+    <div class="alert alert-info"> <b>Heads up!</b> I'm using two CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. </div>
+    <h3>CSS Structure</h3>
+    <p> <strong>style.css</strong> - main styles of the template including responsive styles<br/>
+              <strong>bootstrap.css</strong> - styles from twitter bootstrap.<br/>
+              <strong>colorbox.css</strong> - style for light box<br/>
+              <strong>selectbox.css and jquery-ui.css</strong> – styles specific to jQuery<br/>
+              <strong>resp.css</strong> – responsive styles<br/>
+            </p>
+  </section>
+          
+          <!-- Styles -->
+          
+          <div style="clear: both"></div>
+          <section id="javascript">
+    <div class="page-header">
+              <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+            </div>
+    <h3>JavaScript Files</h3>
+    <p> <strong>funder.js</strong> – main custom scripts for the template<br/>
+              <strong>jquery.colorbox.js</strong> - A lightweight customizable lightbox plugin for jQuery<br/>
+              <strong>jquery.easing.js</strong> - Add easing effects to different elements<br/>
+              <strong>jquery.magnific-popup.min.js</strong> - Popup Light box<br/>
+              <strong>jquery.nav.js</strong> - Add sticky menu<br/>
+              <strong>jquery.isotope.min.js</strong> - an exquisite jQuery plugin for magical layouts. More information can be found at http://isotope.metafizzy.co/<br/>
+              <strong>jquery.mobilemenu.min.js</strong> - responsive scripts create menu on mobile devices <br/>
+              <strong>jquery.placeholder.min.js</strong> -  support library from Internet Explrer fix <br/>
+              <strong>jquery.selectbox-0.6.1.js</strong> - support library from customization select element<br/>
+              <strong>Bootstrap.js</strong> - support to different twitter bootstrap jquery elements<br/>
+              <strong>jquery-uii.js</strong> - jQuery UI elements<br/>
+            </p>
+  </section>
+          <footer>
+    <p>&copy; DESGINED BY UOU APPS AND DEVELOPED BY WPGRACE</p>
+  </footer>
+        </div>
+<!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-transition.js"></script> 
+<script src="assets/js/bootstrap-alert.js"></script> 
+<script src="assets/js/bootstrap-modal.js"></script> 
+<script src="assets/js/bootstrap-dropdown.js"></script> 
+<script src="assets/js/bootstrap-scrollspy.js"></script> 
+<script src="assets/js/bootstrap-tab.js"></script> 
+<script src="assets/js/bootstrap-tooltip.js"></script> 
+<script src="assets/js/bootstrap-popover.js"></script> 
+<script src="assets/js/bootstrap-button.js"></script> 
+<script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+</html>
