@@ -62,7 +62,7 @@ table {
 }
 #header .navigate {
 	background: url("../img/background.png") repeat;
-	padding-top: 30px;
+	padding-top: 45px;
 	border-top: 1px solid #e6e6e6;
 	min-height: 65px;
 }
@@ -2137,7 +2137,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 #header .header-wrapper.subnav-fixed .navigate {
 	background: none repeat scroll 0 0 #FFFFFF !important;
 	min-height: 60px !important;
-	padding-top: 20px !important;
+	padding-top: 35px !important;
 }
 .header-wrapper.subnav-fixed {
 	position: fixed;

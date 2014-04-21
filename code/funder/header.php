@@ -76,10 +76,9 @@
                     <li><a href="<?php echo $data['text_dribbble_profile']; ?>" target="_self" title="mail"><img src="<?php echo get_template_directory_uri(); ?>/img/social/icon_header_ball.png" alt=""></a></li>
                     </ul>
                 </li>
-                    <li class="bleft first socialz"><a class="active" href="#">EN</a></li>
-                    <li class="bleft socialz"><a href="#">FR</a></li>
-                    <li class="bleft socialz"><a href="#">IT</a></li>
-                    <li class="bleft last socialz"><a href="#">DE</a></li>
+                    
+                    <li class="bleft socialz"><a href="http://www.burgeen.com">Burgeen.com</a></li>
+                    
                 </ul>
             </div>
         </div>
