@@ -1,0 +1,9 @@
+﻿.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover , .flexslider:hover .flex-prev , .flexslider:hover .flex-next { display:block;}
+.post-thumbnail img {max-width:none !important;}
+.scroll-box .scroll-item, .scroll-box-wide.scroll-box .scroll-item{margin-right: 8px !important;}
+.social-icons.icon_flat a{-ms-filter: "alpha(opacity=30)";}
+.social-icons.icon_flat a:hover,.post-thumbnail a:hover  img{-ms-filter: "alpha(opacity=60)";}
+.cats-review-box .reviews-cat {margin:0 13px;}
+.wrapper.layout-2c .cats-review-box .reviews-cat {margin: 0 7px;}
+.scroll-box .scroll-item {margin:0 3px !important;}
+.search-block {width:150px;}
