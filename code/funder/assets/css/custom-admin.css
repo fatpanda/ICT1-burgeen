@@ -1,0 +1,42 @@
+/* Item Sorter (Project, Slider, Quotes, Team, and Services)
+--------------------------------------------------*/
+
+#post-list { 
+	margin-top: 20px; 
+}
+
+#post-list li {
+	padding: 10px;  
+	width: 50%; 
+	font-weight: bold;
+	background: #f0f0f0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#e7e7e7');
+	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+	background: -moz-linear-gradient(top,  #f7f7f7,  #e7e7e7);
+	cursor: move;
+	border: 1px solid #ddd;
+	border-raidus: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+ 
+#loading-animation { 
+	display: none; 
+}
+
+/* WordPress Media Uploader (Thumbnail Preview)
+--------------------------------------------------*/
+
+.gt-gallery-thumbs { 
+	clear: left; 
+	margin-top: 35px;
+}
+
+.gt-gallery-thumbs li { 
+	float: left;
+	margin-right: 10px;
+}
+
+.gt-gallery-thumbs img { 
+	vertical-align: bottom; 
+}
